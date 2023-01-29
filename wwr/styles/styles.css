@@ -17,18 +17,18 @@ h2 {
     height: 725px;
 }
 body {
-    background-color: #073059; 
+    background-color: #245a8f; 
 }
 header {
-    background-color:rgba(60, 112, 23, 0.7);
+    background-color:rgba(140, 197, 99, 0.7);
 }
 nav a:hover {
-    background-color: black;
-    color: rgb(244, 219, 188);
+    background-color: rgb(33, 32, 32);
+    color: rgb(220, 184, 140);ad
     text-decoration: none;
     text-align: center;
 }
-
+p{background-color: seagreen;}
 #hero-msg h1{
     text-align: center;
 }
@@ -44,7 +44,7 @@ main section{
 }
 
 .book{background-color: brown;
-    color: #073059;
+    color: #0b335b;
     text-decoration: none;
 } 
 .join{
@@ -66,7 +66,7 @@ main section{
     background-color: rgb(121, 11, 13);
 }
 footer {
-    background-color: gold;
+    background-color: rgb(123, 238, 15);
     color: rgb(55, 92, 92);  
     text-decoration: none;
 }
@@ -74,7 +74,7 @@ footer {
 .msg h2{
     color: rgb(6, 6, 249);}
 .msg p{
-    color: rgb(194, 85, 85);}
+    color: rgb(246, 255, 3);}
 
 footer a{
     color: rgb(4, 143, 143);}
