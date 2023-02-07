@@ -1,19 +1,40 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap');
 
-body {
+body{
     max-width: 1400px;
-      margin:0 auto;
-      text-align: center;
-    }
+    margin:0 auto;
+    text-align:center;
+    font-family:"Raleway", 'Arial', 'sans-serif';
+    color: var(--headline-color-on-white);
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    
+}
 .logo {
     width: 80px;
-
+    padding-top: 5px;
+    font-display: center;
 }
 
 h2 {
     text-align: center;
+    padding: 0;
 }  
 
+h3 {text-align: center;
+    font-family: "Raleway", 'Arial', 'sans-serif';
+    color: darksalmon;
+    font-size: 2em;
+
+}
+.home-title {
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+    
 #background {
     height: 725px;
 }
@@ -29,7 +50,18 @@ nav a:hover {
     text-decoration: none;
     text-align: center;
 }
-p{background-color: seagreen;}
+nav a {
+
+    text-decoration: none;
+    color: #fcfbfb;
+    text-align: center;
+    padding: 35px;
+}
+
+p {
+    background-color: seagreen;
+}
+
 #hero-msg h1{
     text-align: center;
 }
@@ -47,15 +79,28 @@ main section{
 .book{background-color: brown;
     color: #0b335b;
     text-decoration: none;
+    font-size: 18px;
+    
 } 
 .join{
-    background-color: coral;
+    background-color: rgb(233, 148, 118);
     color: rgb(244, 244, 216);
     text-decoration: none;
+    font-size: 18px;
+    
 }
+
+.book, .join {
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+
 .book:hover{
     background-color: blueviolet;
 }
+
 .join:hover{
     background-color: bisque;
 }
@@ -65,26 +110,61 @@ main section{
 }
 .msg{
     background-color: rgb(121, 11, 13);
+    line-height: 1.5em;
+    padding: 20px;
+    
+
 }
 footer {
     background-color: rgb(123, 238, 15);
     color: rgb(55, 92, 92);  
     text-decoration: none;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 .msg h2{
-    color: rgb(6, 6, 249);}
+    color: rgb(6, 6, 249);
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+}
 .msg p{
-    color: rgb(246, 255, 3);}
+    color: rgb(246, 255, 3);
+    font-size: 2em;
+    padding-bottom: 15px;
+
+}
+
+.card-img {
+    border: 10px solid #eabc8e  ;
+    box-sizing: border-box; 
+    width :300px    
+}
+main section img {
+    box-sizing: border-box ; 
+    color:rgb(237, 228, 227);
+
+}
+
+.rivers-card, .camping-card, .rapids-card  {
+    margin: 200px 0;
+    box-sizing: border-box;
+    
+}
 
 footer a{
-    color: rgb(4, 143, 143);}
-footer a:hover{
-    color: rgb(177, 77, 202);}
+    color: rgb(4, 143, 143);
+}
 
-#hero-img
+footer a:hover{
+    color: rgb(177, 77, 202);
+}
+
+#hero-img {
+    border: #eabc8e;}
+
 .icon {
-    width:80px
+    width:80px;
+    padding-top: 10px;
 }
 
 footer p {
@@ -94,3 +174,8 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 } 
+
+footer .social img  {
+    padding-top: 15px;
+}
+.mountains {width: 500px;;}
