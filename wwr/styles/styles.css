@@ -60,6 +60,7 @@ nav a {
 
 p {
     background-color: seagreen;
+
 }
 
 #hero-msg h1{
@@ -110,7 +111,7 @@ main section{
 }
 .msg{
     background-color: rgb(121, 11, 13);
-    line-height: 1.5em;
+    line-height: 1em;
     padding: 20px;
     
 
