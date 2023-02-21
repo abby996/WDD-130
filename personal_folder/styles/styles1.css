@@ -15,6 +15,9 @@ body{
     font-display: left;
 }
 
+header {display: grid;
+    grid-template-columns: 150px auto}
+
 h1{color: darkblue;}
 
 h2 {
@@ -29,6 +32,10 @@ h3 {text-align: center;
     font-size: 2em;
 }
 
+h1, h2, h3,h4 {
+    font-family: var(--heading-font);
+    color: var(--headline-color-on-white);
+}
     
 
 .home-title {

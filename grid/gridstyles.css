@@ -50,34 +50,34 @@
     display: grid;
     grid-template-columns: 150px 150px;
     grid-template-rows: 150px 150px;
-    justify-items: center;
-    align-items: center;
+    
+    
 }
 
-.blue2 {width: 100px;
-        height: 100px;
+.blue2 {width: 200px;
+        height: 200px;
         background-color: blue;
-
+        margin-right: auto;
 
 }
-.yellow2 {width:100px;
-          height: 100px;
+.yellow2 {width:200px;
+          height: 200px;
           background-color: gold;
-
+          margin-bottom:auto ;
 
 }
 
-.red2 {width: 100px;
-       height: 100px;
+.red2 {width: 200px;
+       height: 200px;
        background-color: red;
 
 
 }
 
-.green2 {width: 100px;
-        height: 100px;
+.green2 {width: 200px;
+        height: 200px;
         background-color: green;
-
+        margin-left: auto;
 }
 
 
