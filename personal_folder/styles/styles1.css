@@ -121,6 +121,18 @@ p {
 
 }
 
+.join {background-color: rgb(190, 63, 17);
+color: rgb(216, 244, 216);
+text-decoration: none;
+font-size: 18px;
+position: absolute;
+margin-left: 25%;
+top: 170%;
+left:0%;
+padding: 15px 30px;
+margin-top: 50px;
+border-radius: 5px;
+}
 .msg{
 
     line-height: 1em;
@@ -139,25 +151,25 @@ p {
     position: absolute;
     top:150%;
 }
-.footer{ 
+footer{ 
     background-color: #6f7364;
     padding: 25px 50px;
     margin-top: 200px; 
     display: flex;
     justify-content: space-around;
     align-items: center;
-
-}
-
-.footer a{
-    display: inline;
-
-    width: 5%;
-    color: rgb(4, 143, 143);
     
 }
 
-.footer p{background: #6f7364;}
+footer a{
+    display: inline;
+
+    width: 5%;
+    color: rgb(13, 187, 42);
+    
+}
+
+footer p{background: #50524c;}
 
 .footer .social img  {
     padding-top: 15px;
@@ -173,34 +185,34 @@ p {
     text-align: center;
   
   }
-  .sm-home {
+.sm-home {
     grid-area: home;
     background-color: #ccc;
     line-height: 3em;
   }
-  .sm-page2 {
+.sm-page2 {
     grid-area: page2;
     background-color: #ccc;
     line-height: 3em;
   }
-  .sm-page3 {
+.sm-page3 {
     grid-area: page3;
     background-color: #ccc;
     line-height: 3em;
   }
   
-  .top {
+.top {
     grid-area: top;
     border-left: 1px solid;
   }
   
-  .left {
+.left {
     grid-area: left;
     border-top: 1px solid;
     border-left: 1px solid;
   }
   
-  .right {
+.right {
     grid-area: right;
     border-top: 1px solid;
     border-right: 1px solid;

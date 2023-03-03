@@ -99,6 +99,17 @@ h1, h2, h3 {
     
     
 }
+
+.tool1-card, .tool2-card{
+    display: inline;
+    margin-inline: 5%;
+}
+
+.tool4-card, .tool5-card{
+    display: inline;
+    margin-inline: 5%;
+}
+
 #background {
     display:  grid ;
     grid-template-columns: 1fr 11fr;
@@ -163,12 +174,9 @@ p {
     height: 250px;
     margin-left: 30%;
     position: absolute;
-    top:300%;
+    top:340%;
 }
-p {
-    color: rgb(7, 215, 230);
 
-}
 
 .mechanician {
     width: 70%;
@@ -185,7 +193,7 @@ p {
     height: 50%;
     left: 10%;
 }    
-.footer{ 
+footer{ 
     background-color: #6f7364;
     padding: 25px 50px;
     margin-top: 200px; 
@@ -195,7 +203,7 @@ p {
 
 }
 
-.footer a{
+footer a{
     display: inline;
 
     width: 5%;
@@ -203,9 +211,9 @@ p {
     
 }
 
-.footer p{background: #6f7364;}
+footer p{background: #6f7364;}
 
-.footer .social img  {
+footer .social img  {
     padding-top: 15px;
 }
 

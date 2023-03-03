@@ -75,8 +75,29 @@ h1, h2, h3 {
     justify-self: center;
     align-self: center;
 }
+h6{color: rgb(129, 199, 16);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
     
+  text-size-adjust: 12%;}
+    
+.pc-card, .pc1-card, .pc2-card  {
+    display: inline;
+    margin-inline: 5%;
+    width: 5%;
+    
+}
 
+.Tlf-card, .Tlf1-card {
+    display: inline;
+    margin-inline: 5%;
+}
+
+.Tlf2-card, .Tlf3-card{
+    display: inline;
+    margin-inline-start: 5%;
+    margin-top:5%;
+}
 .home-title {
     font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
     text-align: center;
@@ -116,9 +137,8 @@ nav a {
     box-align: 15px;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364; 
-  
     padding: 25px;
-   
+    display: inline;
     
     
     
@@ -161,10 +181,10 @@ main section{
     height: 250px;
     margin-left: 30%;
     position: absolute;
-    top:260%;
+    top:300%;
 }
 p {
-    color: rgb(7, 215, 230);
+    color: rgb(7, 48, 230);
 
 }
 
@@ -183,7 +203,7 @@ p {
     height: 50%;
     left: 10%;
 }   
-.footer{ 
+footer{ 
     background-color: #6f7364;
     padding: 25px 50px;
     margin-top: 200px; 
@@ -193,7 +213,7 @@ p {
 
 }
 
-.footer a{
+footer a{
     display: inline;
 
     width: 5%;
@@ -201,13 +221,12 @@ p {
     
 }
 
-.footer p{ display: grid;
-    position: absolute;
+footer p{ 
     background: #6f7364;
-    margin-top: 290%;
+    
 }
 
-.footer .social img  {
+footer .social img  {
     padding-top: 15px;
 }
 
