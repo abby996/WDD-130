@@ -93,6 +93,13 @@ h1 {text-align: center;
     margin-top: 25%;
     size: 3em;
     margin-left: 10%;}
+
+.icon2 {text-align: center;
+        display: flex;
+        position: absolute;
+        margin-top: 25%;
+        size: 3em;
+        margin-left: 10%;}    
 header {
     background-color:rgba(140, 197, 99, 0.7);
     display: grid;
@@ -115,9 +122,12 @@ nav a {
 
 p {
     color: rgb(139, 79, 46);
+ 
+}
+.p1{color: darkred;
+size: 20em;
 
 }
-
 #hero-msg h1{
     text-align: center;
 }
@@ -318,6 +328,27 @@ nav {
         top: 950px;
           
 } 
+
+.Campings-card {width: 45%;
+    display: grid;
+    position: absolute; 
+    margin-bottom:75% ;
+    right: 30%;
+    top:65% ;
+    }
+.rapid-card {width: 45%;
+        display: grid;
+        margin-left: 40%;
+        margin-bottom: 150%;  
+        position: absolute; 
+        top: 950px;
+}
+
+.Campings-card, .rapid-card{display: inline;
+position: absoluteS;
+
+
+}
 #background {
     display:  grid ;
     grid-template-columns: 1fr 11fr;
@@ -342,6 +373,21 @@ nav {
     left: 10%;
 }   
 
+.mountain {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 2fr 7fr;
+    grid-template-rows: 5fr 8fr;
+    grid-column: 2/7;
+    grid-row: 5/8;
+    box-shadow: 5px 5px 10px #6f7364;
+    margin-top: 180%;
+    margin-left: 5%;
+    background-color: azure;
+    padding: 50px 100px;
+    height: 50%;
+    left: 10%;
+}   
   
 footer {
     background-color: #6f7364;
