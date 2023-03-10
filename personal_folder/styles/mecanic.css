@@ -119,7 +119,7 @@ h1, h2, h3 {
     }
 
 nav a:hover {
-    background-color: rgb(143, 78, 78);
+    background-color: rgb(58, 134, 134);
     color: rgb(220, 184, 140);
     text-decoration: rgb(123, 255, 0);
     text-align: center;
@@ -127,7 +127,7 @@ nav a:hover {
 nav a {
     
     text-decoration: none;
-    color: #ad1616;
+    color: #bccf0f;
     text-align: center;
     padding: 35px;
     

@@ -39,7 +39,7 @@ header {
 
 h1{ 
    text-align: center;
-   background-color: #ad1616;
+   background-color: #dabb11;
 }
 
 h2 { text-decoration-line:underline;
@@ -115,7 +115,7 @@ h6{color: rgb(129, 199, 16);
     }
 
 nav a:hover {
-    background-color: rgb(143, 78, 78);
+    background-color: rgb(145, 24, 175);
     color: rgb(220, 184, 140);
     text-decoration: rgb(123, 255, 0);
     text-align: center;
@@ -123,7 +123,7 @@ nav a:hover {
 nav a {
     
     text-decoration: none;
-    color: #ad1616;
+    color: #42a12e;
     text-align: center;
     padding: 35px;
     
@@ -153,7 +153,7 @@ main section{
 
 }
 .join{
-    background-color: rgb(190, 63, 17);
+    background-color: rgb(252, 206, 3);
     color: rgb(216, 244, 216);
     text-decoration: none;
     font-size: 18px;
