@@ -112,7 +112,7 @@ h1, h2, h3 {
     padding: 2%;
     
 }
-.Meca-img2{width: 29%;
+.Meca-img2{width: 20%;
     display: inline;
     position: absolute;
     
@@ -165,7 +165,7 @@ h1, h2, h3 {
     margin-top: 10px;
     color: rgb(149, 110, 80);
 }
-.Tel-img, .Tel-img1{
+ .Tel-img1{
     display:inline;
     position: absolu;
     border: 5px solid;
@@ -175,14 +175,7 @@ h1, h2, h3 {
 }   
 
 
-.Tel-img{
-    box-sizing: border-box;
-    position: absolute;
-    margin-bottom: 10%;
-    margin-right:10%
 
-
-}
 
 .Tel-img1{
     box-sizing: border-box;
