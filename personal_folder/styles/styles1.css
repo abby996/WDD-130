@@ -79,16 +79,50 @@ h1, h2, h3 {
 }
     
 .content2 {
-    width: 00px;
-    height: 500px;
+    width: 70%;
+    height: 700px;
     border: 1px solid;
     display: grid;
-    grid-template-columns: 150px 150px;
-    grid-template-rows: 150px 150px;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px 200px;
+    margin-left: 15%;
     
     
 }
 
+
+
+.red2{
+    width: 480%;;
+    height: 340%;;
+    background-color: #ad1616;
+    border: 10px solid;
+    display: grid;
+    border-color:yellow;
+    float: left;
+    
+}
+.yellow2{width: 280%;
+    height: 280%;
+    background: yellow;
+    border: 10px solid;
+    display: grid;
+    border-color:yellow;
+    float: right;
+    padding: 2%;
+    
+}
+.Meca-img2{width: 29%;
+    display: inline;
+    position: absolute;
+
+       
+}
+
+.red2 p {text-align: end;
+      color: yellow;
+
+}
 .content5 {
     /* This is the parent of the activity 5 boxes. */
     width: 98%;
@@ -104,6 +138,7 @@ h1, h2, h3 {
     height: 100%;   
     background-color: rgb(63, 48, 48); 
     position: 250, 250;
+    
 } 
   
 .green5 { 
@@ -112,7 +147,7 @@ h1, h2, h3 {
     background-color: rgb(240, 165, 143); 
     float: left;
     margin-left: 150%;
-  
+    padding: 2%;
 } 
  
 .blue5 {
@@ -132,7 +167,7 @@ h1, h2, h3 {
 .Tel-img, .Tel-img1{
     display:inline;
     position: absolu;
-    border: 3px solid;
+    border: 5px solid;
     border-color: blue;
     top: 100%;
     right:25%;
@@ -159,11 +194,12 @@ h1, h2, h3 {
 .Tel-img2, .Tel-img3 {
     display: inline;
     position: absolute;
-    border: 3px solid;
+    border: 5px solid;
     border-color: blue;
     top: 100%;
     left:25%;
     box-shadow: #50524c;
+    
 }   
    
 .Tel-img2{display: grid;
