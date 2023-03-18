@@ -115,8 +115,9 @@ h1, h2, h3 {
 .Meca-img2{width: 29%;
     display: inline;
     position: absolute;
-
-       
+    
+    border: 5px solid;
+    border-color: yellow;   
 }
 
 .red2 p {text-align: end;
