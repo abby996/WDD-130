@@ -135,6 +135,31 @@ h6{color: rgb(129, 199, 16);
     margin-top: 50px;
     border-radius: 5px;
 }
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+.previous {
+    background-color: #8b5151;
+    color: black;
+  }
+  
+.next {
+    background-color: #049faa;
+    color: white;
+  }
+  
+.round {
+    border-radius: 50%;
+  }
 footer{ 
     background-color: #6f7364;
     padding: 25px 50px;

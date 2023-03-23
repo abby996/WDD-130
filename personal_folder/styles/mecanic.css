@@ -180,7 +180,29 @@ p {
     padding: 50px 100px;
     height: 50%;
     left: 10%;
-}    
+}  
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+a:hover {
+    background-color: #cc8c8c;
+    color: black;
+  }
+  
+.previous {
+    background-color: #c0a778;
+    color: black;
+  }
+  
+.next {
+    background-color: #a0b63c;
+    color: white;
+  }
+
 footer{ 
     background-color: #6f7364;
     padding: 25px 50px;
