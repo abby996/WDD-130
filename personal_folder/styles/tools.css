@@ -100,6 +100,43 @@ h1, h2, h3 {
     
 }
 
+.card-1900 { 
+    width :300px ;
+    box-align: 20px;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364; 
+    padding: 25px;
+
+}
+.card-1902{ 
+    width :350px ;
+    box-align: 25px;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364; 
+  
+    padding: 25px;
+}
+
+.card-1907{ 
+    width :210px ;
+    box-align: 23px;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364; 
+  
+    padding: 25px;
+}
+
+
+.card-1903{ 
+    width :450px ;
+    box-align: 20px;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364; 
+  
+    padding: 25px;
+}
+
+
 .tool1-card, .tool2-card{
     display: inline;
     margin-inline: 5%;
@@ -172,12 +209,68 @@ a:hover {
 .previous {
     background-color: #8b5151;
     color: black;
-  }
+}
   
 .next {
     background-color: #049faa;
     color: white;
-  }
+}
+
+.content3{
+    display:grid;
+    position:relative;
+    padding: 5px;
+    margin: 5%;
+    border-color: #ad1616;
+    grid-template-columns: 550px 550px 550px;
+    grid-template-rows: 550px 550px  550px 500px ;
+    
+   
+
+}
+
+.azure3, .azure31, .azure32 {
+    display:grid;
+    width: 70%;
+    height: 350px;
+    background-color: rgb(167, 231, 228);
+    padding: 5%;
+    margin: 1%;
+    position: 250,200, 250;
+    border: 20px solid #4bda92;
+    transition: transform .5s;
+    box-shadow: 5px 5px 5px 5px #8bd86c;
+}
+
+
+.azure33, .azure34, .azure4 {
+    display:grid;
+    width: 70%;
+    height: 350px;
+    background-color: rgb(167, 231, 228);
+    padding: 5%;
+    margin: 1%;
+    position: 250,200, 250;
+    border: 20px solid #4bda92;
+    transition: transform .5s;
+    box-shadow: 5px 5px 5px 5px #8bd86c;
+}
+
+
+
+
+.azure35,.azure36,.azure37{
+    display:grid;
+    width: 80%;
+    height: 450px;
+    background-color: rgb(231, 240, 239);
+    
+    margin: 1%;
+    position: 350;
+    border: 20px solid #49be84;
+    transition: transform .5s;
+    box-shadow: 5px 5px 5px 5px #bb4d32;
+}
 
    
 footer{ 
