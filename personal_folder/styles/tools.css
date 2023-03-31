@@ -231,7 +231,7 @@ a:hover {
 
 .azure3, .azure31, .azure32 {
     display:grid;
-    width: 70%;
+    width: 60%;
     height: 350px;
     background-color: rgb(167, 231, 228);
     padding: 5%;
@@ -245,7 +245,7 @@ a:hover {
 
 .azure33, .azure34, .azure4 {
     display:grid;
-    width: 70%;
+    width: 60%;
     height: 350px;
     background-color: rgb(167, 231, 228);
     padding: 5%;
@@ -261,7 +261,7 @@ a:hover {
 
 .azure35,.azure36,.azure37{
     display:grid;
-    width: 80%;
+    width: 70%;
     height: 450px;
     background-color: rgb(231, 240, 239);
     
